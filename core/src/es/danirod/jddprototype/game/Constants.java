@@ -36,12 +36,12 @@ public class Constants {
      * in the opposite direction to make the player fall faster multiplied by some value to make
      * it stronger.
      */
-    public static final int IMPULSE_JUMP = 20;
+    public static final int IMPULSE_JUMP = 40;
 
     /**
      * This is the speed that the player has. The larger this value is, the faster the player will
      * go. Don't make this value very high without putting more distance between every obstacle
      * in the circuit.
      */
-    public static final float PLAYER_SPEED = 8f;
+    public static final float PLAYER_SPEED = 3;
 }
